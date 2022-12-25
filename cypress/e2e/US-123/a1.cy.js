@@ -33,7 +33,7 @@ describe('REPORTS - HTML-', () => {
 
       });
 
-      it('PROBANDO COMMANDS', () => {
+      it.only('PROBANDO COMMANDS', () => {
         cy.SIGN__IN("pablo222@gmail.com","losloros222")
       });
 
