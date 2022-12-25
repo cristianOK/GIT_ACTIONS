@@ -25,9 +25,12 @@ describe('REPORTS - HTML-', () => {
       });
       
       it.only('PROBANDOOOOOOOO', () => {
-        POM.SUSCRIPTION()
+        POM.text_suscription()
+        POM.email_suscription()
+        POM.bottom_suscription()
+        POM.alert_suscription()
 
-        
+
       });
 
 
